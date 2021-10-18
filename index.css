@@ -1,0 +1,81 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.contenitore{
+  width: 50%;
+  margin: auto;
+  padding: 80px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header, nav{
+  text-align: center;
+}
+
+header{
+  color: #32CD32;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+header img{
+  width: 200px;
+  height: auto;
+}
+
+nav{
+  background-color: #32CD32;
+  min-height: 80%;
+  line-height: 3;
+}
+
+main{
+  color: white;
+}
+
+div > input{
+  width: 11px;
+}
+
+h3{
+  display: inline-block;
+  line-height: 0.7;
+}
+
+p{
+  line-height: 0.5;
+  margin-top: 0.5px;
+}
+
+#uno{
+  color: yellow;
+  height: 25px;
+  background-color: yellow;
+  border-radius: 5px;
+  width: 280px;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+#due{
+  color: green;
+  height: 25px;
+  background-color: green;
+  border-radius: 5px;
+  width: 400px;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+#tre{
+  color: red;
+  height: 25px;
+  background-color: red;
+  border-radius: 5px;
+  width: 130px;
+  margin: 0px;
+  margin-top: 5px;
+}
